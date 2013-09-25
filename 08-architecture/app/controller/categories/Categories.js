@@ -13,5 +13,9 @@ Ext.define('MyApp.controller.categories.Categories',{
 		var me = this;
 
 
-	}
+	},
+
+    addContent: function(){
+        //Need some implementation
+    }
 });

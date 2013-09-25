@@ -10,9 +10,10 @@ Ext.define('MyApp.view.clients.ClientsGrid',{
 	extend      : 'Ext.grid.Panel',
 	alias       : 'widget.clients.grid',
 	requires	: [
-		'Ext.view.TableChunker',
-		'Ext.selection.RowModel',
-		'Ext.grid.column.Column'
+		'Ext.grid.header.Container',
+		'Ext.grid.ColumnManager',
+		'Ext.grid.column.Column',
+		'Ext.selection.RowModel'
 	],
 
 	border		: false,
